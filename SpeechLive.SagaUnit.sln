@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SagaUnit", "SagaUnit\SagaUnit.csproj", "{F9412E43-FA32-4CF3-8248-521D34FDC4D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpeechLive.SagaUnit.HostService", "SagaUnit\SpeechLive.SagaUnit.HostService.csproj", "{F9412E43-FA32-4CF3-8248-521D34FDC4D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F6FD1786-1B15-483C-843E-DDA715BD61F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +20,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F9412E43-FA32-4CF3-8248-521D34FDC4D1} = {F6FD1786-1B15-483C-843E-DDA715BD61F6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {25BA3055-8E48-4939-9176-DC31924FB8DA}
